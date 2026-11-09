@@ -1,0 +1,9 @@
+# Add this block to your ~/.config/noctalia/templates.toml
+# Whenever Noctalia's active color palette changes, it will render colors.css
+# directly into this Steam Millennium skin directory, and Steam will hot-reload it.
+
+[theme.templates.user.steam_simple_dark]
+input_path = "/mnt/NVME/simple-dark-fork/noctalia/colors.css.template"
+output_path = "/mnt/NVME/simple-dark-fork/colors.css"
+enabled = true
+

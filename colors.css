@@ -1,0 +1,61 @@
+:root {
+    /** 
+    * Noctalia v5 Dynamic Color Palette for Simple Dark (Steam Millennium)
+    * Generated automatically by Noctalia template engine
+    */
+
+    /* Core Surface Tiers */
+    --color-light: #341e2c;
+    --color-dark: #1a0f16;
+    --color-darker: #171617;
+    --color-darkest: #171416;
+    --scrollbar: #341e2c;
+
+    /* Grey & Surface Ramps */
+    --black: #090809;
+    --realblack: #0f0d0e;
+    --lightblack: #171416;
+    --black-ish: transparent;
+    --blacker-ish: #171617;
+    --blacker: #181216;
+    --darkergrey: #120e11;
+    --bedarkgrey: #181216;
+    --thegrey: #181216;
+    --darkgrey: #171617;
+    --begrey: #1a0f16;
+    --littlegrey: #20121b;
+    --grey: #271621;
+    --lightergrey: #341e2c;
+    --lightgrey: #1a0f16;
+    --grey-ish: #5a3f4d;
+
+    /* Foreground / Text Colors */
+    --white: #ffffff;
+    --darkwhite: #ebebeb;
+    --darkerwhite: #ffffff;
+
+    /* Primary & Accent Colors */
+    --brightblue: #ff8cb3;
+    --blu: #ffbfd5;
+    --blue: #ff8cb3;
+    --blue-ish: #ffb3cc;
+    --blue-er: #9b6074;
+    --lightblue: #ff8cb3;
+    --darkblue: #5c3945;
+
+    /* Status & Semantic Colors */
+    --ingame: #ffcce0;
+    --darkgreen: #5c4c53;
+    --green: #ffcce0;
+    --online: #ff8cb3;
+    --offline: #785b69;
+
+    --gold: #ffffff;
+    --bronze: #40353a;
+    --purple: #ffb3cc;
+    --pink: #ffcce0;
+    --red: #ff99b8;
+    --orange: #ffccdb;
+    --yellow: #ffffff;
+}
+

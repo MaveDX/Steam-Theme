@@ -1,0 +1,61 @@
+:root {
+    /** 
+    * Noctalia v5 Dynamic Color Palette for Simple Dark (Steam Millennium)
+    * Generated automatically by Noctalia template engine
+    */
+
+    /* Core Surface Tiers */
+    --color-light: {{colors.surface_container_highest.default.hex}};
+    --color-dark: {{colors.surface_container.default.hex}};
+    --color-darker: {{colors.surface.default.hex}};
+    --color-darkest: {{colors.surface_container_lowest.default.hex}};
+    --scrollbar: {{colors.surface_container_highest.default.hex}};
+
+    /* Grey & Surface Ramps */
+    --black: {{colors.surface_container_lowest.default.hex | darken 5}};
+    --realblack: {{colors.surface_container_lowest.default.hex | darken 3}};
+    --lightblack: {{colors.surface_container_lowest.default.hex}};
+    --black-ish: transparent;
+    --blacker-ish: {{colors.surface.default.hex}};
+    --blacker: {{colors.surface_container_low.default.hex}};
+    --darkergrey: {{colors.surface_container_low.default.hex | darken 2}};
+    --bedarkgrey: {{colors.surface_container_low.default.hex}};
+    --thegrey: {{colors.surface_container_low.default.hex}};
+    --darkgrey: {{colors.surface.default.hex}};
+    --begrey: {{colors.surface_container.default.hex}};
+    --littlegrey: {{colors.surface_container_high.default.hex | darken 2}};
+    --grey: {{colors.surface_container_high.default.hex}};
+    --lightergrey: {{colors.surface_container_highest.default.hex}};
+    --lightgrey: {{colors.surface_variant.default.hex}};
+    --grey-ish: {{colors.outline_variant.default.hex}};
+
+    /* Foreground / Text Colors */
+    --white: {{colors.on_surface.default.hex}};
+    --darkwhite: {{colors.on_surface.default.hex | darken 8}};
+    --darkerwhite: {{colors.on_surface_variant.default.hex}};
+
+    /* Primary & Accent Colors */
+    --brightblue: {{colors.primary.default.hex}};
+    --blu: {{colors.primary.default.hex | lighten 10}};
+    --blue: {{colors.primary.default.hex}};
+    --blue-ish: {{colors.secondary.default.hex}};
+    --blue-er: {{colors.primary_container.default.hex | lighten 20}};
+    --lightblue: {{colors.on_primary_container.default.hex}};
+    --darkblue: {{colors.primary_container.default.hex}};
+
+    /* Status & Semantic Colors */
+    --ingame: {{colors.tertiary.default.hex}};
+    --darkgreen: {{colors.tertiary_container.default.hex}};
+    --green: {{colors.on_tertiary_container.default.hex}};
+    --online: {{colors.primary.default.hex}};
+    --offline: {{colors.outline.default.hex}};
+
+    --gold: {{colors.tertiary.default.hex | lighten 15}};
+    --bronze: {{colors.tertiary_container.default.hex | darken 10}};
+    --purple: {{colors.secondary.default.hex}};
+    --pink: {{colors.tertiary.default.hex}};
+    --red: {{colors.error.default.hex}};
+    --orange: {{colors.error.default.hex | lighten 10}};
+    --yellow: {{colors.tertiary.default.hex | lighten 20}};
+}
+
